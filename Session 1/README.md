@@ -57,22 +57,22 @@ void loop() {
 
 **کد نرم‌افزاری و توضیحات:**
 ```c++
-int inPin = 7;      // PUSH BUTTON متصل به پایه هفتم
-int val = 0;        // متغیر برای ذخیره مقدار خوانده شده
+int inPin = 7;                     // PUSH BUTTON متصل به پایه هفتم
+int val = 0;                       // متغیر برای ذخیره مقدار خوانده شده
 void setup() {
-  pinMode(LED_BUILTIN, OUTPUT);  // تنظیم پین LED_BUILTIN به عنوان خروجی
-  pinMode(inPin, INPUT);    // تنظیم پین inPin به عنوان ورودی
+  pinMode(LED_BUILTIN, OUTPUT);    // تنظیم پین LED_BUILTIN به عنوان خروجی
+  pinMode(inPin, INPUT);           // تنظیم پین inPin به عنوان ورودی
 }
 
 void loop() {
-  val = digitalRead(inPin);   // خواندن پین ورودی
+  val = digitalRead(inPin);        // خواندن پین ورودی
   digitalWrite(LED_BUILTIN, val);  // تنظیم LED بر اساس مقدار PUSH BUTTON
 }
 ```
 * **تعریف پین $${\color{red}PUSH \space BUTTON}$$:** در ابتدای برنامه، پین $${\color{red}PUSH \space BUTTON}$$ به متغیر `inPin` اختصاص داده می‌شود که در این مثال پین 7 است.
 * **متغیر val:** در ابتدای برنامه، متغیر `val` برای ذخیره مقدار $${\color{red}PUSH \space BUTTON}$$ تعریف می شود.
 * **تنظیم حالت پین $${\color{lightblue}LED \space BUILTIN}$$:** در تابع `setup`، پین $${\color{lightblue}LED \space BUILTIN}$$ به عنوان خروجی تنظیم می‌شود تا بتوانیم به آن مقدار دهیم و آن را روشن یا خاموش کنیم.
-* **تنظیم حالت پین $${\color{red}inPin}$$:** در تابع `setup`، پین $${color{red}inPin}$$ به عنوان ورودی تنظیم می‌شود تا بتوانیم مقدار آن را خوانده و $${\color{lightblue}LED \space BUILTIN}$$ را خاموش یا روشن کنیم.
+* **تنظیم حالت پین $${\color{red}inPin}$$:** در تابع `setup`، پین $${\color{red}inPin}$$ به عنوان ورودی تنظیم می‌شود تا بتوانیم مقدار آن را خوانده و $${\color{lightblue}LED \space BUILTIN}$$ را خاموش یا روشن کنیم.
 * **حلقه اصلی:** تابع `loop` به صورت مداوم تکرار می‌شود. در هر تکرار، متغیر `val` مقدار $${\color{red}inPin}$$ را خوانده و به $${\color{lightblue}LED \space BUILTIN}$$ می دهد.
 
 ### نتیجه گیری:
