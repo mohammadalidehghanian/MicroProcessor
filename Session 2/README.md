@@ -46,7 +46,7 @@ void loop() {
 
 **شماتیک مدار:**
 
-![توضیح تصویر](https://github.com/mohammadalidehghanian/MicroProcessor/blob/main/Session%201/Schematic2.jpg)
+![توضیح تصویر](https://github.com/mohammadalidehghanian/MicroProcessor/blob/main/Session%202/Schematic1.jpg)
 
 
 **توضیحات شماتیک:**
