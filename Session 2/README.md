@@ -102,7 +102,7 @@ void loop() {
 
 **شماتیک مدار:**
 
-![توضیح تصویر](https://github.com/mohammadalidehghanian/MicroProcessor/blob/main/Session%201/Schematic2.jpg)
+![توضیح تصویر](https://github.com/mohammadalidehghanian/MicroProcessor/blob/main/Session%202/Schematic2.jpg)
 
 
 **توضیحات شماتیک:**
@@ -164,7 +164,7 @@ voidloop(){
 
 **شماتیک مدار:**
 
-![توضیح تصویر](https://github.com/mohammadalidehghanian/MicroProcessor/blob/main/Session%201/Schematic2.jpg)
+![توضیح تصویر](https://github.com/mohammadalidehghanian/MicroProcessor/blob/main/Session%202/Schematic3.jpg)
 
 
 **توضیحات شماتیک:**
@@ -247,11 +247,7 @@ voidloop(){
 
 **شماتیک مدار:**
 
-![توضیح تصویر](https://github.com/mohammadalidehghanian/MicroProcessor/blob/main/Session%201/Schematic2.jpg)
-
-
-**توضیحات شماتیک:**
-* 
+![توضیح تصویر](https://github.com/mohammadalidehghanian/MicroProcessor/blob/main/Session%202/Schematic4.jpg)
 
 ### نتیجه گیری:
-در این آزمایش ما توانستیم با موفقیت $${\color{Red}LED \space BUILTIN}$$ را با $${\color{Blue}PUSH \space BUTTON}$$ زن روشن و خاموش یا `PUll UP` کنیم.
+در این آزمایش با استفاده از توابع for تو در تو و آرایه های الگو توانستیم چهار LED را با ۲ الگوی متفاوت به نمایش بگذاریم.
